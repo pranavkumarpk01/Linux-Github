@@ -1,6 +1,6 @@
 #!/bin/bash
 #script should be execute with sudo/root access
-if [["${UID}" -ne 0 ]]
+if [[ "${UID}" -ne 0 ]]
 then 
     echo 'please run with sudo or root.'
     exit 1
